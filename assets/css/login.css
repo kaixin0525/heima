@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: url(/assets/images/login_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* logo部分 */
+#logo{
+    margin: 20px 0 0 75px;
+}
+
+/*登录部分*/
+#login, #register{
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#register {
+    display: none;
+}
+
+
+.title{
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat 50% 50%;
+}
+
+/* 表单 */
+form{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* 图标 */
+.layui-form-item {
+    position: relative;
+}
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.layui-input {
+    padding-left: 30px;
+}
+div>a{
+    float: right;
+}
