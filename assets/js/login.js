@@ -27,7 +27,8 @@ $(function () {
             data: data,
             success: function (res) {
                 // 无论成功失败都给出一个提示
-                alert(res.message)
+                // alert(res.message)
+                layer.msg(res.message)
                 if (res.status === 0) {
                     $('#login').show().next().hide()
                 }
@@ -68,8 +69,9 @@ $(function () {
             url: 'http://www.liulongbin.top:3007/api/login',
             data: $(this).serialize(),
             success: function (res) {
-                alert(res.message)
-                if (res.message === 0) {
+                // alert(res.message)
+                layer.msg(res.message);
+                if (res.status === 0) {
                     localStorage.setItem('token', res.token)
                     location.href = '/index.html'
                 }

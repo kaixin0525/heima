@@ -1,0 +1,35 @@
+.user{
+    height: 60px;
+    line-height: 60px;
+    padding-left: 50px;
+}
+.user .layui-nav-img{
+    width: 40px;
+    height: 40px;
+}
+.user a{
+    color: aliceblue;
+}
+
+/* 图标 */
+.layui-icon{
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.layui-icon-app{
+    margin-left: 20px;
+}
+
+/* 头像 */
+.text-avatar{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 150, 136);
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+    display: none;
+}
